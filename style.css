@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #00feba, #5b548a);
+}
+
+.calculator {
+    background: rgba(255,255,255,0.3);
+    backdrop-filter: blur(15px);
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 350px;
+    width: 100%;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.display input {
+    width: 100%;
+    padding: 15px;
+    font-size: 2rem;
+    border: none;
+    border-radius: 10px;
+    text-align: right;
+    background: rgba(255,255,255,0.8);
+    margin-bottom: 15px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+button {
+    padding: 20px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background: #fff;
+    color: #5b548a;
+    font-weight: bold;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+}
+
+button:hover {
+    background: #00feba;
+    color: #1f1f1f;
+}
+
+button.operator {
+    background: #f7c59f;
+}
+
+button.equals {
+    grid-column: span 2;
+    background: #00feba;
+    color: #fff;
+}
+
+button.clear {
+    background: #ff6b6b;
+    color: #fff;
+}
+
+button.erase {
+    background: #ffa500;
+    color: #fff;
+}
+
+button.toggle-sign {
+    background: #7ecbff;
+    color: #fff;
+}
+
+@media (max-width: 480px) {
+    .display input {
+        font-size: 1.5rem;
+        padding: 12px;
+    }
+
+    button {
+        padding: 15px;
+        font-size: 1.2rem;
+    }
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 20px 25px;
+    border-radius: 10px;
+    background: #fff;
+    color: #5b548a;
+    font-weight: 600;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+/* Hover effect for ALL buttons */
+button:hover {
+    background: #00feba;   /* Change to whatever highlight color you want */
+    color: #1f1f1f;
+    transform: translateY(-2px);
+}
+
+/* Optional: Active click effect */
+button:active {
+    transform: translateY(0);
+}
