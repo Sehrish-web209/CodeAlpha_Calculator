@@ -4,6 +4,7 @@ A simple and modern Calculator Application built using HTML, CSS, and JavaScript
 This project demonstrates how to create an interactive calculator using JavaScript logic and responsive UI design.
 
 📌 Project Overview
+
 The Calculator App allows users to perform basic mathematical operations quickly and easily.
 Users can click the calculator buttons to perform operations such as:
 
@@ -36,7 +37,9 @@ The interface updates dynamically as users enter numbers and operations.
 🛠️ Technologies Used
 
 HTML5 – Structure of the calculator
+
 CSS3 – Styling and layout design
+
 JavaScript (ES6) – Calculator logic and functionality
 
 📂 Project Structure
@@ -64,7 +67,7 @@ The result is displayed on the calculator screen.
 ▶️ How to Run the Project
 
 https://sehrish-web209.github.io/CodeAlpha_Calculator/
-Open index.html in your browser.
+Open link in your browser.
 The calculator will run in your web browser.
 
 🎥 Project Demo
@@ -78,14 +81,21 @@ Showing the result on screen
 👩‍💻 Author
 
 Sehrish Maqbool
+
 BSIT Student at University of Chakwal
+
 Project created as part of CodeAlpha Internship
 
 📚 Learning Outcomes
 
 Through this project, I practiced:
+
 JavaScript event handling
+
 DOM manipulation
+
 Creating interactive web applications
+
 Designing responsive UI with CSS
+
 Implementing calculator logic.
